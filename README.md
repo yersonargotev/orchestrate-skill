@@ -26,3 +26,4 @@ MIT
 ## Releases
 
 Stable versions are published as GitHub Releases and can be selected by exact tag.
+Release tags preserve the reviewed skill content for downstream consumers.
