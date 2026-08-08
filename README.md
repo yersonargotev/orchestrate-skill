@@ -22,3 +22,7 @@ Then invoke it explicitly with `$orchestrate`, or let Codex select it when a tas
 ## License
 
 MIT
+
+## Releases
+
+Stable versions are published as GitHub Releases and can be selected by exact tag.
