@@ -4,7 +4,7 @@ Reusable skills for ChatGPT work and Codex.
 
 ## Orchestrate
 
-[`orchestrate`](orchestrate) encourages Codex to delegate large-scope work across focused agents, then integrate their results. Trivial tasks stay with the coordinator.
+[`orchestrate`](skills/orchestrate) encourages Codex to delegate large-scope work across focused agents, then integrate their results. Trivial tasks stay with the coordinator.
 
 The pattern comes from [Practical multi-agent orchestration in Codex](https://x.com/pvncher/status/2080707291603407077).
 
@@ -14,7 +14,7 @@ Copy the skill into your personal Codex skills directory:
 
 ```sh
 mkdir -p ~/.codex/skills
-cp -R orchestrate ~/.codex/skills/orchestrate
+cp -R skills/orchestrate ~/.codex/skills/orchestrate
 ```
 
 Then invoke it explicitly with `$orchestrate`, or let Codex select it when a task calls for multi-agent coordination.
@@ -25,5 +25,5 @@ MIT
 
 ## Releases
 
-Stable versions are published as GitHub Releases and can be selected by exact tag.
-Release tags preserve the reviewed skill content for downstream consumers.
+The complete Orchestrate Pack is published as an immutable GitHub Release tagged
+`pack-v<version>`. Its root `pack.json` declares the exact reviewed closure.
