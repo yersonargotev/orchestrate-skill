@@ -4,7 +4,7 @@ Reusable skills for ChatGPT work and Codex.
 
 ## Orchestrate
 
-[`orchestrate`](skills/orchestrate) encourages Codex to delegate large-scope work across focused agents, then integrate their results. Trivial tasks stay with the coordinator.
+[`orchestrate`](skills/orchestrate) helps Codex delegate bounded work, choose workers suited to its difficulty, and integrate their results. It uses completion notifications and permits ending a pending turn only when the runtime supports waking the coordinator. Small, tightly coupled tasks stay with the coordinator.
 
 The pattern comes from [Practical multi-agent orchestration in Codex](https://x.com/pvncher/status/2080707291603407077).
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "orchestrate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Coordinate focused Codex subagents",
   "selectable": true,
   "surfaces": [
@@ -64,7 +64,7 @@
       "kind": "skill",
       "id": "orchestrate",
       "source": "skills/orchestrate",
-      "description": "Coordinate focused Codex subagents for substantial tasks",
+      "description": "Coordinate focused Codex subagents for delegated work",
       "requires": [],
       "conflicts": [],
       "notices": [
@@ -85,7 +85,7 @@
       "origin": {
         "id": "orchestrate-skill",
         "path": "orchestrate",
-        "relationship": "exact-copy"
+        "relationship": "adapted"
       }
     }
   ]
